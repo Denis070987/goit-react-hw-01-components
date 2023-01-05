@@ -6,27 +6,27 @@ export const Profile = ({username, tag, location, avatar, stats}) => {
         <div className={css.profile}>
   <div className={css.description}>
     <img
-      src="https://cdn-icons-png.flaticon.com/512/1077/1077012.png"
-      alt="User avatar"
+      src={avatar}
+      alt={username}
       className={css.avatar}
     />
-    <p className="name">Petra Marica</p>
-    <p className="tag">@pmarica</p>
-    <p className="location">Salvador, Brasil</p>
+    <p className={css.name}>{username}</p>
+    <p className={css.tag}>@{tag}</p>
+    <p className={css.location}>{location}</p>
   </div>
 
-  <ul className="stats">
+  <ul className={css.stats}>
     <li>
-      <span className="label">Followers</span>
-      <span className="quantity">1000</span>
+      <span className={css.label}>Followers</span>
+      <span className={css.quantity}>{stats.followers}</span>
     </li>
     <li>
-      <span className="label">Views</span>
-      <span className="quantity">2000</span>
+      <span className={css.label}>Views</span>
+      <span className={css.quantity}>{stats.views}</span>
     </li>
     <li>
-      <span className="label">Likes</span>
-      <span className="quantity">3000</span>
+      <span className={css.label}>Likes</span>
+      <span className={css.quantity}>{stats.likes}</span>
     </li>
   </ul>
 </div>
