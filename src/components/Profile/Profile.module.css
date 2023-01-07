@@ -1,74 +1,71 @@
-.profile{
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgba(218, 218, 236, 0.521);
-    width: 400px;
-    margin-top: 15px;
-    border-radius: 8px;
+.profile {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(218, 218, 236, 0.521);
+  width: 400px;
+  margin-top: 15px;
+  border-radius: 8px;
 }
 
-.description{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-bottom: rgb(4, 179, 179) solid 2px;
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: rgb(4, 179, 179) solid 2px;
 }
 
-.avatar{
-    margin-top: 30px;
-    width: 170px;
-    border-radius: 50%;
-    background-color: rgb(255, 255, 255);
-    padding: 15px 10px 0px 10px;
+.avatar {
+  margin-top: 30px;
+  width: 170px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  padding: 15px 10px 0px 10px;
 }
 
-.name{
-margin-top: 55px;
-margin-bottom: 0px;
-font-size: 30px;
-font-weight: 650;
+.name {
+  margin-top: 55px;
+  margin-bottom: 0px;
+  font-size: 30px;
+  font-weight: 650;
 }
 
-.tag{
-margin-top: 15px;
-margin-bottom: 0px;
-font-weight: 500;
+.tag {
+  margin-top: 15px;
+  margin-bottom: 0px;
+  font-weight: 500;
 }
 
-.location{
-margin-top: 15px;
-margin-bottom: 0px;
-font-weight: 500;
-margin-bottom: 40px;
+.location {
+  margin-top: 15px;
+  margin-bottom: 0px;
+  font-weight: 500;
+  margin-bottom: 40px;
 }
 
-ul{
-    list-style: none;
-    padding: 0;
+ul {
+  list-style: none;
+  padding: 0;
 }
-.stats{
-    
-    display: flex;
-    gap: 60px;
-    justify-content: center;
-    background-color: rgba(162, 233, 233, 0.233);
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    }
+.stats {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  background-color: rgba(162, 233, 233, 0.233);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
 
-li{
-    display: flex;
-   flex-direction: column;
-   align-items: center;
-  
-   }
+li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-
-   .quantity{
-    margin-top: 8px;
-    font-weight: 650;
-   }
+.quantity {
+  margin-top: 8px;
+  font-weight: 650;
+}
