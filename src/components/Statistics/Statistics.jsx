@@ -30,6 +30,7 @@ export const Statistics = ({ title, stats }) => {return (
 }
 
 Statistics.propTypes = {
+    id: PropTypes.number.isRequired,
     label: PropTypes.string.isRequired,
     percentage: PropTypes.number.isRequired
 }
