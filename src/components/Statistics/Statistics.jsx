@@ -1,4 +1,4 @@
-import propTypes from 'prop-types';
+import PropTypes from 'prop-types';
 import css from './Statistics.module.css';
 
 function randColor() {
@@ -18,7 +18,7 @@ export const Statistics = ({ title, stats }) => {return (
         <li className={css.item}
             key={id}
             style={{backgroundColor: randColor()}}>
-                        <span className={css.label}>{label }</span>
+                        <span className={css.label}>{label}</span>
                         <span className={css.percentage}>{ percentage}</span>
     </li>
                 )
@@ -30,6 +30,6 @@ export const Statistics = ({ title, stats }) => {return (
 }
 
 Statistics.propTypes = {
-    label: propTypes.string.isRequired,
-    percentage: propTypes.number.isRequired
+    label: PropTypes.string.isRequired,
+    percentage: PropTypes.number.isRequired
 }
