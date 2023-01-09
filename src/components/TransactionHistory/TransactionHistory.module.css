@@ -1,0 +1,22 @@
+.transaction__history {
+  width: 400px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: rgba(162, 233, 233, 0.516);
+  margin-top: 25px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+}
+
+thead tr {
+  height: 55px;
+  font-size: 26px;
+}
+
+tbody tr {
+    
+  height: 45px;
+}
