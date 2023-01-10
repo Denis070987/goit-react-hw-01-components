@@ -9,35 +9,4 @@
   border-radius: 8px;
 }
 
-.item {
-  display: flex;
-  flex-direction: row;
-  gap: 35px;
-  width: 370px;
-  height: 100px;
-  background-color: rgba(218, 218, 236, 0.521);
-  border: rgb(4, 179, 179) solid 2px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 8px;
-  border-radius: 4px;
-}
-li:last-child {
-  margin-bottom: 0px;
-}
 
-.status {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: red;
-  margin-left: 15px;
-}
-.true {
-  background-color: blue;
-}
-
-.name {
-  font-size: 26px;
-  font-weight: 700;
-}
